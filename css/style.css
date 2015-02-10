@@ -12,18 +12,32 @@ body {
 	background: yellow;
 	margin: 0 auto;
 	width: 1000px;
+	padding: 40px 40px;
+}
+
+#main {
+	width: 1000px;
 }
 
 section {
 	width: 250px;
 	float:left;
-	padding: 40px 40px;
+	padding: 25px 25px;
+}
+
+ul {
+	list-style: none;
 }
 
 p {
-	text-align: right;
+	text-align: center;
 }
 
 .clearfix {
 	clear: both;
+}
+
+.panel {
+	background-color: blue;
+	margin: 10px 10px;
 }
