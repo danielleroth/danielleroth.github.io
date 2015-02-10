@@ -5,4 +5,20 @@ h1, h2 {
 
 body {
 	font-family: 'Gentium Basic', serif;
+	background: url("../img/crossword.png");
+}
+
+.container {
+	background: yellow;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+section {
+	width: 250px;
+	float:left;
+}
+
+.clearfix {
+	clear: both;
 }
