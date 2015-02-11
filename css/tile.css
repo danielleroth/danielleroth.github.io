@@ -77,6 +77,20 @@ h1 {
 	margin-left: 37px;
 }
 
+h2 {
+	color: #A9E9E9;
+}
+
+body {
+	color: #5B5B5B;
+
+}
+
+em {
+	margin: 30px 30px;
+}
+
+
 /* Set Your Own Margin & Padding */
 h2, h3, p {
 	margin: 0;
