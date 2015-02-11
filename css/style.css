@@ -14,46 +14,8 @@ body {
 	background: url("../img/crossword.png");
 }
 
-.container {
-	background: ;
-	margin: 0 auto;
-	width: 1000px;
-	padding: 40px 40px;
-}
-
-#main {
-	width: 1000px;
-	text-align: left;
-}
-
-section {
-	width: 250px;
-	float:left;
-	padding: 25px 25px;
-}
-
-ul {
-	list-style: none;
-}
-
-p {
-	text-align: center;
-}
-
-.clearfix {
-	clear: both;
-}
-
-.panel {
-	background-color: blue;
-	margin: 10px 10px;
-}
 
 /* NAV */
-nav{
-	display: inline-block;
-	list-style: none;
 
-}
 
 
