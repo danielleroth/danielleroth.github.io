@@ -88,3 +88,7 @@ footer {
 .clearfix {
 	clear: both;
 }
+
+
+/* Clearfix - Oo Not Remove */
+.clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
