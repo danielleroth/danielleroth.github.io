@@ -1,6 +1,7 @@
 /*headers*/
 header {
-	background: blue
+	background: blue;
+	width: 100%;
 }
 
 h1, h2 {
@@ -25,6 +26,10 @@ body {
 }
 
 /* NAV */
+nav {
+	display: inline-block;
+}
+
 nav li {
 	list-style: none;
 }
@@ -46,13 +51,24 @@ a:hover {
 
 section {
 	background: pink;
+	padding: 40px;
+	margin: 10px;
+	float: left;
+	width: 220px;
 }
 
+.wide {
+	width: 50%;
+}
 
 ul {
 	list-style: none;
 }
 
+#me {
+	width: 40%;
+	float: left;
+}
 
 
 /* FOOTER */
@@ -60,5 +76,15 @@ ul {
 .clearfix {
 	clear: both;
 }
+
+.wrapper {
+	text-align: center;
+	margin: 0 auto;
+	background: orange;
+}
+
+
+
+
 
 
