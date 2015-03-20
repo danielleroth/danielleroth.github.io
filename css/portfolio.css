@@ -63,7 +63,7 @@ body {
 /*parent*/
 figure {
 	position: relative;
-	box-shadow: 0 15px 20px -12px rgba(0,0,0, .2);
+	box-shadow: 0 15px 20px -12px rgba(0,0,0, .1);
 }
 
 /*child*/
@@ -81,6 +81,10 @@ h3 {
 	z-index: 1;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.2em;
+}
+
+.gallery div {
+	background: #000;
 }
 
 /* 
@@ -143,6 +147,16 @@ p {
 .wrapper {
 	margin: auto 150px;
 }
+
+
+
+.one, .two, .three, .four {
+}
+
+.one:hover, .two:hover, .three:hover, .four:hover {
+
+}
+
 
 
 
