@@ -43,7 +43,7 @@ nav a {
 }
 
 a:hover {
-	background-color: #5B5B5B;
+	background-color: #E6DF98;
 	color: #FFF;
 }
 
@@ -60,6 +60,7 @@ section {
 
 .wide {
 	width: 50%;
+	background: url("../img/crossword.png");
 }
 
 ul {
