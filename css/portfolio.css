@@ -128,19 +128,14 @@ figure {
 	width: 400px;
 }
 
-h3 {
-	background: rgba(168,233,233,.75);
-	padding: 5px 10px 5px 10px;
-	color: #fff;
-	text-transform: uppercase;
-}
 
-p {
+
+h3 {
 	background: rgba(0,0,0,.75);
 	color: #fff;
 	font-size: .75em;
-	margin: 0;
-	padding: 10px 0 10px 0;
+	height: 300px;
+	width: 400px;
 	text-align: center;	
 }
 
@@ -151,6 +146,7 @@ p {
 
 
 .one, .two, .three, .four {
+	background: black;
 }
 
 .one:hover, .two:hover, .three:hover, .four:hover {
