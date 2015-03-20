@@ -203,8 +203,14 @@ background: #F5F5F5;
 /*child 2*/
 .gallery figure h3 {
 	position: absolute;
-	top: 250px;
+	top: -32.4px;
+	left: -10px;
 	opacity: 100;
+	font-size: 1.5em;
+	letter-spacing: 4px;
+	height: 310px;
+	width: 400px;
+	border-radius: 10px;
 	-webkit-transition: opacity .5s ease;
 }
 
@@ -245,14 +251,6 @@ background: #F5F5F5;
 	color: #fff;
 }
 
-.gallery p {
-	background: rgba(0,0,0,.75);
-	color: #fff;
-	font-size: .75em;
-	margin: 0;
-	padding: 10px 0 10px 0;
-	text-align: center;	
-}
 
 
 
