@@ -157,7 +157,7 @@ background: #F5F5F5;
 }
 
 #about h2 {
-	text-align: left;
+	text-align: right;
 }
 
 #home li {
@@ -242,7 +242,6 @@ background: #F5F5F5;
 	width: 400px;
 	border-radius: 10px;
 	box-shadow: 0 15px 20px -12px rgba(0,0,0, .2);
-
 }
 
 .gallery h3 {
@@ -251,17 +250,16 @@ background: #F5F5F5;
 	color: #fff;
 }
 
-
-
-
-
+#center {
+	display: block;
+}
 
 
 /*END of PORTFOLIO*/
 
 
 .clearfix {
-	overflow: auto;
+	overflow: display;
 }
 
 
