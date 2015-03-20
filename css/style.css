@@ -1,7 +1,8 @@
 /*headers*/
 header {
-	background: blue;
+
 	width: 100%;
+	text-align: center;
 }
 
 h1, h2 {
@@ -80,7 +81,8 @@ ul {
 .wrapper {
 	text-align: center;
 	margin: 0 auto;
-	background: orange;
+
+	max-width: 90%;
 }
 
 
