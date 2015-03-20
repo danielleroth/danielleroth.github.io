@@ -12,11 +12,11 @@ h1, h2 {
 
 h1 {
 	font-size: 3.5em;
-	color: #FF5959;
+	color: #6FA1A6;
 }
 
 h2 {
-	color: #A9E9E9;
+	color: #8B8B82;
 }
 
 
@@ -67,7 +67,7 @@ ul {
 }
 
 #me {
-	width: 40%;
+	width: 50%;
 	float: left;
 }
 
