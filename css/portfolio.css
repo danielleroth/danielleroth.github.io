@@ -1,31 +1,4 @@
-
-/*BODY*/
-
-body {
-	background: url("../img/lightwool.png");
-	font-family: 'Gentium Basic', serif;
-	font-size: .95em;
-}
-
-div {
-	float: left;
-	margin: 40px 40px;
-}
-
-body {
-	max-width: 1000px;
-	margin: 0 auto;
-	padding: 0 5%;
-}
-/*END of BODY*/
-
-/*HEADERS*/
-h3 {
-	text-align: left;
-	display: block;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 1.2em;
-}
+/* PAGE DESIGN */
 
 h1 {
 	font-family: 'Josefin Sans', sans-serif;
@@ -42,10 +15,6 @@ h2 {
 	text-transform: uppercase;
 	bottom-margin: 5px;
 }
-/*END of HEADERS*/
-
-
-/* NAV */
 
 nav li {
 	list-style: none;
@@ -77,13 +46,24 @@ a:hover {
 
 }
 
-/* END of NAV*/
 
-/*PORTFOLIO*/
+/*==============================*/
+/* Positioning					*/
+/*==============================*/
+
+body {
+	background: url("../img/lightwool.png");
+	font-family: 'Gentium Basic', serif;
+	font-size: .95em;
+}
 
 
+
+/* Position Headers & Paragraph w/in Figure */
+/*parent*/
 figure {
 	position: relative;
+	box-shadow: 0 15px 20px -12px rgba(0,0,0, .2);
 }
 
 /*child*/
@@ -99,6 +79,8 @@ h3 {
 	top: 4px;
 	left: -25px;
 	z-index: 1;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.2em;
 }
 
 /* 
@@ -140,12 +122,11 @@ figure {
 	height: 300px;
 	float: left;
 	width: 400px;
-	box-shadow: 0 15px 20px -12px rgba(0,0,0, .5);
 }
 
 h3 {
 	background: rgba(168,233,233,.75);
-	padding: 10px 10px 10px 10px;
+	padding: 5px 10px 5px 10px;
 	color: #fff;
 	text-transform: uppercase;
 }
@@ -159,9 +140,11 @@ p {
 	text-align: center;	
 }
 
-
-.gallery {
-	float: left;
+.wrapper {
+	margin: auto 150px;
 }
 
-/*END of PORTFOLIO*/
+
+
+
+
