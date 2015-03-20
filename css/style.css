@@ -130,6 +130,9 @@ background: #F5F5F5;
 
 /*HOME*/
 
+
+
+
 /*END of HOME*/
 
 
@@ -150,8 +153,8 @@ background: #F5F5F5;
 
 .container h3 {
 	position: absolute;
-	top: 4px;
-	left: -25px;
+	top: 150px;
+	left: 200px;
 	z-index: 1;
 }
 
@@ -187,9 +190,9 @@ background: #F5F5F5;
 .container figure {
 	background: #000;
 	border: 10px solid #A9E9E9;
-	height: 400px;
+	height: 300px;
 	float: left;
-	width: 500px;
+	width: 400px;
 	border-radius: 22%;
 }
 
@@ -209,11 +212,11 @@ background: #F5F5F5;
 }
 
 .container img {
-	height: 400px;
-	width: 500px;
-	float: left;
+	height: 300px;
+	width: 400px;
 	border-radius: 20%;
 }
+
 
 
 /*END of PORTFOLIO*/
