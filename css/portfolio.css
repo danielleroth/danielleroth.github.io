@@ -1,69 +1,11 @@
-/* PAGE DESIGN */
-
-h1 {
-	font-family: 'Josefin Sans', sans-serif;
-	color: #FF5959;
-	font-size: 4em;
-	text-transform: uppercase;
-	margin-top: 100px;
-	margin-bottom: 5px;
-}
-
-h2 {
-	font-family: 'Josefin Sans', sans-serif;
-	color: #A9E9E9;
-	text-transform: uppercase;
-	bottom-margin: 5px;
-}
-
-nav li {
-	list-style: none;
-}
-
-nav a {
-	display: inline-block;
-	float: left;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-family: 'Josefin Sans', sans-serif;
-	color: #5B5B5B;
-	text-align: left;
-	margin-right: 40px;
-	padding: 10px 10px;
-}
-
-nav {
-	display: inline-block;
-	width: 1000px;
-	text-align: left;
-	margin: 40px 40px 40px -50px;
-}
-
-a:hover {
-	background-color: #5B5B5B;
-	color: #FFF;
-
-}
-
-
 /*==============================*/
 /* Positioning					*/
 /*==============================*/
-
-body {
-	background: url("../img/lightwool.png");
-	font-family: 'Gentium Basic', serif;
-	font-size: .95em;
-}
-
-
 
 /* Position Headers & Paragraph w/in Figure */
 /*parent*/
 figure {
 	position: relative;
-	box-shadow: 0 15px 20px -12px rgba(0,0,0, .1);
 }
 
 /*child*/
@@ -71,7 +13,7 @@ img {
 	position:absolute;
 	top: 0px;
 	height: 300px;
-	width: 400px;
+	width: 200px;
 }
 
 h3 {
@@ -79,12 +21,6 @@ h3 {
 	top: 4px;
 	left: -25px;
 	z-index: 1;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 1.2em;
-}
-
-.gallery div {
-	background: #000;
 }
 
 /* 
@@ -93,7 +29,7 @@ h3 {
 */
 
 /*child 2*/
-figure p {
+figure h3 {
 	position: absolute;
 	top: 250px;
 	opacity: 0;
@@ -101,7 +37,7 @@ figure p {
 }
 
 
-figure p:hover {
+figure h3:hover {
 		opacity: 100;
 }
 
@@ -121,40 +57,25 @@ body {
 }
 
 figure {
-	background: #A9E9E9;
-	border: 10px solid #A9E9E9;
+	background: #000;
+	border: 10px solid #000;
 	height: 300px;
 	float: left;
-	width: 400px;
+	width: 500px;
 }
-
-
 
 h3 {
 	background: rgba(0,0,0,.75);
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+}
+
+p {
+	background: rgba(0,0,0,.75);
 	color: #fff;
 	font-size: .75em;
-	height: 300px;
-	width: 400px;
+	margin: 0;
+	padding: 10px 0 10px 0;
 	text-align: center;	
 }
-
-.wrapper {
-	margin: auto 150px;
-}
-
-
-
-.one, .two, .three, .four {
-	background: black;
-}
-
-.one:hover, .two:hover, .three:hover, .four:hover {
-
-}
-
-
-
-
-
 
