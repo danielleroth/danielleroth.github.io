@@ -136,6 +136,86 @@ background: #F5F5F5;
 
 /*PORTFOLIO*/
 
+
+/*parent*/
+.container figure {
+	position: relative;
+}
+
+/*child*/
+.container img {
+	position:absolute;
+	top: 0px;
+}
+
+.container h3 {
+	position: absolute;
+	top: 4px;
+	left: -25px;
+	z-index: 1;
+}
+
+/* 
+	- Hover Over Figure (any part), Caption Appears 
+	- Transition Caption, `p` transitions in .5 seconds
+*/
+
+/*child 2*/
+.container figure p {
+	position: absolute;
+	top: 250px;
+	opacity: 0;
+	-webkit-transition: opacity .5s ease;
+}
+
+
+.container figure p:hover {
+		opacity: 100;
+}
+
+.container {
+	margin: 0 auto;
+	width: 80%;
+	float: left;
+}
+
+.container body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.25em;
+}
+
+.container figure {
+	background: #000;
+	border: 10px solid #A9E9E9;
+	height: 400px;
+	float: left;
+	width: 500px;
+	border-radius: 22%;
+}
+
+.container h3 {
+	background: rgba(0,0,0,.75);
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+}
+
+.container p {
+	background: rgba(0,0,0,.75);
+	color: #fff;
+	font-size: .75em;
+	margin: 0;
+	padding: 10px 0 10px 0;
+	text-align: center;	
+}
+
+.container img {
+	height: 400px;
+	width: 500px;
+	float: left;
+	border-radius: 20%;
+}
+
+
 /*END of PORTFOLIO*/
 
 
