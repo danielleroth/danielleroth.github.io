@@ -1,57 +1,30 @@
 
-/* style samples */
-.color-1, 
-.color-2, 
-.color-3, 
-.pattern-1, 
-.pattern-2, 
-.pattern-3 {
+/*BODY*/
 
-margin: 20px 20px;
-height: 100px;
-width: 100px;
-border-radius: 100%;
-float: left;
-box-shadow: 0 15px 20px -12px rgba(0,0,0, .8);
-
-
-}
-
-.color-1 {
-	background-color: #FF5959;
-}
-
-.color-2 {
-	background-color: #A9E9E9;
-}
-
-.color-3 {
-	background-color: #5B5B5B;
-}
-
-.pattern-1 {
-	background: url("../img/lightwool.png");
-}
-
-.pattern-2 {
-	background: url("../img/crossword.png");
-}
-
-.pattern-3 {
-	background: url("../img/sos.png");
-}
-/**/
 body {
-	background-color: #F5F5F5;
+	background: url("../img/lightwool.png");
 	font-family: 'Gentium Basic', serif;
 	font-size: .95em;
 }
 
+div {
+	float: left;
+	margin: 40px 40px;
+}
+
+body {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+/*END of BODY*/
+
+/*HEADERS*/
 h3 {
 	text-align: left;
 	display: block;
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 1.8em;
+	font-size: 1.2em;
 }
 
 h1 {
@@ -69,17 +42,8 @@ h2 {
 	text-transform: uppercase;
 	bottom-margin: 5px;
 }
+/*END of HEADERS*/
 
-div {
-	float: left;
-	margin: 40px 40px;
-}
-
-body {
-	max-width: 1000px;
-	margin: 0 auto;
-	padding: 0 5%;
-}
 
 /* NAV */
 
@@ -111,6 +75,75 @@ a:hover {
 	background-color: #5B5B5B;
 	color: #FFF;
 }
+
+/* END of NAV*/
+
+
+/*STYLE TILE*/
+
+/* style samples */
+.color-1, 
+.color-2, 
+.color-3, 
+.pattern-1, 
+.pattern-2, 
+.pattern-3 {
+
+margin: 20px 20px;
+height: 100px;
+width: 100px;
+border-radius: 100%;
+float: left;
+box-shadow: 0 15px 20px -12px rgba(0,0,0, .8);
+}
+
+.color-1 {
+	background-color: #FF5959;
+}
+
+.color-2 {
+	background-color: #A9E9E9;
+}
+
+.color-3 {
+	background-color: #5B5B5B;
+}
+
+.pattern-1 {
+	background: url("../img/lightwool.png");
+}
+
+.pattern-2 {
+	background: url("../img/crossword.png");
+}
+
+.pattern-3 {
+	background: url("../img/sos.png");
+}
+
+#tile {
+background: #F5F5F5;
+ }
+
+
+/*END of STYLE TILE*/
+
+/*HOME*/
+
+/*END of HOME*/
+
+
+
+/*PORTFOLIO*/
+
+/*END of PORTFOLIO*/
+
+
+
+
+
+
+
 
 
 
