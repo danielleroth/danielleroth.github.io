@@ -74,6 +74,7 @@ nav {
 a:hover {
 	background-color: #5B5B5B;
 	color: #FFF;
+
 }
 
 /* END of NAV*/
@@ -129,101 +130,48 @@ background: #F5F5F5;
 /*END of STYLE TILE*/
 
 /*HOME*/
+#me {
+	float: left;
+	border-radius: 20%;
+	max-width: 40%;
+	top-margin: 40px;
+	box-shadow: 0 15px 20px -12px rgba(0,0,0, .8)
 
+}
 
+#home div {
+	float: left;
+	max-width: 25%;
+	margin: -5px 30px;
+	top-margin: 5px;
+	list-style-type: none;
+}
 
+#home section {
+	margin: 60px auto;
+	padding: 25px 25px;
+}
+
+#about {
+	text-align: right;
+}
+
+#about h2 {
+	text-align: left;
+}
+
+#home li {
+	list-style-type: none;
+}
 
 /*END of HOME*/
 
 
 
-/*PORTFOLIO*/
 
-
-/*parent*/
-.container figure {
-	position: relative;
+.clearfix {
+	overflow: auto;
 }
-
-/*child*/
-.container img {
-	position:absolute;
-	top: 0px;
-}
-
-.container h3 {
-	position: absolute;
-	top: 150px;
-	left: 200px;
-	z-index: 1;
-}
-
-/* 
-	- Hover Over Figure (any part), Caption Appears 
-	- Transition Caption, `p` transitions in .5 seconds
-*/
-
-/*child 2*/
-.container figure p {
-	position: absolute;
-	top: 250px;
-	opacity: 0;
-	-webkit-transition: opacity .5s ease;
-}
-
-
-.container figure p:hover {
-		opacity: 100;
-}
-
-.container {
-	margin: 0 auto;
-	width: 80%;
-	float: left;
-}
-
-.container body {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 1.25em;
-}
-
-.container figure {
-	background: #000;
-	border: 10px solid #A9E9E9;
-	height: 300px;
-	float: left;
-	width: 400px;
-	border-radius: 22%;
-}
-
-.container h3 {
-	background: rgba(0,0,0,.75);
-	padding: 5px 10px 5px 10px;
-	color: #fff;
-}
-
-.container p {
-	background: rgba(0,0,0,.75);
-	color: #fff;
-	font-size: .75em;
-	margin: 0;
-	padding: 10px 0 10px 0;
-	text-align: center;	
-}
-
-.container img {
-	height: 300px;
-	width: 400px;
-	border-radius: 20%;
-}
-
-
-
-/*END of PORTFOLIO*/
-
-
-
-
 
 
 

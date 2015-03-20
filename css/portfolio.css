@@ -1,0 +1,167 @@
+
+/*BODY*/
+
+body {
+	background: url("../img/lightwool.png");
+	font-family: 'Gentium Basic', serif;
+	font-size: .95em;
+}
+
+div {
+	float: left;
+	margin: 40px 40px;
+}
+
+body {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+/*END of BODY*/
+
+/*HEADERS*/
+h3 {
+	text-align: left;
+	display: block;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.2em;
+}
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #FF5959;
+	font-size: 4em;
+	text-transform: uppercase;
+	margin-top: 100px;
+	margin-bottom: 5px;
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #A9E9E9;
+	text-transform: uppercase;
+	bottom-margin: 5px;
+}
+/*END of HEADERS*/
+
+
+/* NAV */
+
+nav li {
+	list-style: none;
+}
+
+nav a {
+	display: inline-block;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #5B5B5B;
+	text-align: left;
+	margin-right: 40px;
+	padding: 10px 10px;
+}
+
+nav {
+	display: inline-block;
+	width: 1000px;
+	text-align: left;
+	margin: 40px 40px 40px -50px;
+}
+
+a:hover {
+	background-color: #5B5B5B;
+	color: #FFF;
+
+}
+
+/* END of NAV*/
+
+/*PORTFOLIO*/
+
+
+figure {
+	position: relative;
+}
+
+/*child*/
+img {
+	position:absolute;
+	top: 0px;
+	height: 300px;
+	width: 400px;
+}
+
+h3 {
+	position: absolute;
+	top: 4px;
+	left: -25px;
+	z-index: 1;
+}
+
+/* 
+	- Hover Over Figure (any part), Caption Appears 
+	- Transition Caption, `p` transitions in .5 seconds
+*/
+
+/*child 2*/
+figure p {
+	position: absolute;
+	top: 250px;
+	opacity: 0;
+	-webkit-transition: opacity .5s ease;
+}
+
+
+figure p:hover {
+		opacity: 100;
+}
+
+/* RAH! i need to have the figure, not the paragraph activate the transition......*/
+
+/*==============================*/
+/* DO NOT EDIT BELOW THIS LINE */
+/*==============================*/
+.container {
+	margin: 0 auto;
+	width: 80%;
+}
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.25em;
+}
+
+figure {
+	background: #A9E9E9;
+	border: 10px solid #A9E9E9;
+	height: 300px;
+	float: left;
+	width: 400px;
+	box-shadow: 0 15px 20px -12px rgba(0,0,0, .5);
+}
+
+h3 {
+	background: rgba(168,233,233,.75);
+	padding: 10px 10px 10px 10px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+p {
+	background: rgba(0,0,0,.75);
+	color: #fff;
+	font-size: .75em;
+	margin: 0;
+	padding: 10px 0 10px 0;
+	text-align: center;	
+}
+
+
+.gallery {
+	float: left;
+}
+
+/*END of PORTFOLIO*/
