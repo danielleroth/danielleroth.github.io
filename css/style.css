@@ -1,0 +1,9 @@
+.subfeature {
+    display: inline-block;
+    margin: 15px;
+    width: 200px;
+}
+
+.feature {
+    margin: 15px;
+}
