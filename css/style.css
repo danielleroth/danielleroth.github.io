@@ -21,6 +21,9 @@ p {
 /* End of HS */
 
 /* Navigation */
+.guide a {
+    color: white;
+}
 nav a {
     display: block;
     color: white;
@@ -41,6 +44,11 @@ nav a {
     max-width: 280px;
     height: 100%;
     position: fixed;
+    margin-right: 20%;
+}
+
+nav a:hover {
+    background: #blue;
 }
 
 /* End of Navigation */
@@ -50,15 +58,9 @@ a {
     text-decoration: none;  
 }
 
-nav a:hover {
-    background-color: #F05949;
-    width: 100%;
-    position: fixed;
-}
-
 /* End of Nav */
 
-/**/
+/*Images & Sub Text*/
 .subfeature {
     display: inline-block;
     margin: 15px;
@@ -73,4 +75,11 @@ nav a:hover {
     width: 25%;
     height: 100%;
     style: block;
+}
+
+
+/* Layout */
+
+.main {
+   margin-left: 400px;
 }
