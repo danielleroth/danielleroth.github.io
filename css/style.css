@@ -1,9 +1,8 @@
 /* Headline Styling */
 h1 {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Unica One', cursive;
     color: white;
-    font-size: 3.5em;
-    
+    font-size: 2em;   
 }
 
 
@@ -16,17 +15,21 @@ nav a {
     height: 40px;
     width: 330px;
     padding-top: 20px;
-    padding-left: 20px;
+    font-family: 'Unica One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 40%;
     
 }
 
 .guide {
-    width: 200px;
     background-color: #9F9C81;
     padding: 40px;
     margin-left: -10px;
-    margin-top: -10px;
+    margin-top: -20px;
+    width: 280px;
     height: 100%;
+    position: fixed;
+    max-width: 300px;
 }
 
 /* End of Navigation */
@@ -38,6 +41,7 @@ a {
 
 nav a:hover {
     background-color: #F05949;
+    width: 100%;
 }
 
 /* End of Nav */
