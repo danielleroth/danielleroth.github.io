@@ -4,7 +4,6 @@ Mocha: 82746D
 Mint: A2EBA6
 Coral: E86966
 Guinness: 60B53D
-
 */
 
 
@@ -34,11 +33,12 @@ p {
 .guide a {
     color: white;
 }
+
 nav a {
     display: block;
     color: white;
     height: 40px;
-    width: 330px;
+
     padding-top: 20px;
     font-family: 'Unica One', cursive;
     text-transform: uppercase;
@@ -47,10 +47,8 @@ nav a {
 }
 
 .guide {
-    background-color: #9F9C81;
+    background-color: #E86966;
     padding: 40px;
-    margin-left: -10px;
-    margin-top: -20px;
     max-width: 15%;
     height: 100%;
     position: fixed;
@@ -59,6 +57,10 @@ nav a {
 
 nav a:hover {
     background: #blue;
+}
+
+body {
+    margin-top: 0;
 }
 
 /* End of Navigation */
@@ -81,17 +83,6 @@ a {
     margin: 15px;
 }
 
-.guide {
-    width: 25%;
-    height: 100%;
-    style: block;
-}
 
 
 /* Layout */
-
-.main {
-    margin-left: 400px;
-    width: 75%;
-    background: teal;
-}
