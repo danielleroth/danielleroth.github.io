@@ -1,3 +1,48 @@
+/* Headline Styling */
+h1 {
+    font-family: 'Poiret One', cursive;
+    color: white;
+    font-size: 3.5em;
+    
+}
+
+
+/* End of HS */
+
+/* Navigation */
+nav a {
+    display: block;
+    color: white;
+    height: 40px;
+    width: 330px;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+
+.guide {
+    width: 200px;
+    background-color: #9F9C81;
+    padding: 40px;
+    margin-left: -10px;
+    margin-top: -10px;
+    height: 100%;
+}
+
+/* End of Navigation */
+
+/* Links */
+a {
+    text-decoration: none;  
+}
+
+nav a:hover {
+    background-color: #F05949;
+}
+
+/* End of Nav */
+
+/**/
 .subfeature {
     display: inline-block;
     margin: 15px;
@@ -6,4 +51,10 @@
 
 .feature {
     margin: 15px;
+}
+
+.guide {
+    width: 25%;
+    height: 100%;
+    style: block;
 }
