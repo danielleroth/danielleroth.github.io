@@ -36,7 +36,9 @@ nav a:hover {
     border-radius: 15%;
 }
 
-
+.spotlight {
+    color: aqua;
+}
 
 /* Gallery */
 /* Note: Uses fonts from `lightgallery.min.css` */
