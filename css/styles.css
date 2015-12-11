@@ -1,0 +1,46 @@
+/********************
+YOUR STYLES
+*******************/
+
+/* Style LetteringJS on Header */
+header h1 {
+	font-size: 3em;
+	letter-spacing: .5em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* Select Every other Letter */
+header span:nth-child(even) {
+	color : red;
+}
+
+/* Gallery */
+/* Note: Uses fonts from `lightgallery.min.css` */
+figure {
+	margin: 0; /* overrid Normalize.css */
+}
+
+figure:hover {
+	background: yellow;
+}
+
+
+/********************
+MEDIA QUERIES
+*******************/
+
+/* Desktop */
+@media (min-width: 1200px) {
+
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+
+}
+
+/* Mobile */
+@media (min-width: 480px) {
+
+}
