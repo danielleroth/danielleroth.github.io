@@ -5,7 +5,7 @@ console.log( randNum );
 
 
 // Store Images in an Array
-var headerImg = ['img/header-1.png', 'img/header-2.png', 'img/header-3.png'];
+var headerImg = ['img/header-1.jpg', 'img/header-2.jpg', 'img/header-3.jpg'];
 console.log( headerImg[randNum] );
 // Change Header Image, Randomly 
 $('header img').attr('src', headerImg[randNum]);

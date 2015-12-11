@@ -1,97 +1,66 @@
-/* Colors 
-Tan: B5633D
-Mocha: 82746D
-Mint: A2EBA6
-Coral: E86966
-Guinness: 60B53D
-*/
+/********************
+YOUR STYLES
+*******************/
 
-
-/* Type Styling */
-h1 {
+/* Style LetteringJS on Header */
+header h1 {
     font-family: 'Unica One', cursive;
-    color: white;
-    font-size: 3em;   
+	font-size: 3em;
+	letter-spacing: .5em;
+	text-align: left;
+	text-transform: uppercase;
+    color: black;
 }
 
-h4 {
+a {
+    text-decoration: none;
+}
+
+h3 {
     font-family: 'Unica One', cursive;
     font-size: 1.5em;
-    background-color: blue;
-    
 }
 
-p {
-    font-family: 'Dosis', sans-serif;
-    background-color: orange;
-
-}
-
-/* End of HS */
-
-/* Navigation */
-.guide a {
-    color: white;
-}
 nav a {
-    display: block;
-    color: white;
-    height: 40px;
-    width: 330px;
-    padding-top: 20px;
     font-family: 'Unica One', cursive;
     text-transform: uppercase;
-    letter-spacing: 40%;
-    
-}
-
-.guide {
-    background-color: #9F9C81;
-    padding: 40px;
-    margin-left: -10px;
-    margin-top: -20px;
-    max-width: 15%;
-    height: 100%;
-    position: fixed;
-    margin-right: 20%;
+    font-size: 1.25em;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
 }
 
 nav a:hover {
-    background: #blue;
-}
-
-/* End of Navigation */
-
-/* Links */
-a {
-    text-decoration: none;  
-}
-
-/* End of Nav */
-
-/*Images & Sub Text*/
-.subfeature {
-    display: inline-block;
-    margin: 15px;
-    width: 200px;
-}
-
-.feature {
-    margin: 15px;
-}
-
-.guide {
-    width: 25%;
-    height: 100%;
-    style: block;
+    color: white;
+    background: grey;
+    border-radius: 15%;
 }
 
 
-/* Layout */
 
-.main {
-    margin-left: 400px;
-    width: 75%;
-    background: teal;
+/* Gallery */
+/* Note: Uses fonts from `lightgallery.min.css` */
+figure {
+	margin: 0; /* overrid Normalize.css */
 }
- 
+
+
+
+/********************
+MEDIA QUERIES
+*******************/
+
+/* Desktop */
+@media (min-width: 1200px) {
+
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+
+}
+
+/* Mobile */
+@media (min-width: 480px) {
+
+}
