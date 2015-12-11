@@ -12,6 +12,9 @@ header h1 {
     color: black;
 }
 
+nav {
+    bottom-margin: 100px;
+}
 a {
     text-decoration: none;
 }
@@ -38,6 +41,10 @@ nav a:hover {
 
 .spotlight {
     color: aqua;
+}
+
+p {
+    font-family: 'Dosis';
 }
 
 /* Gallery */
